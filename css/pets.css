@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  }
+
+  body{
+    background-color: #F3F0D7;
+  }
+
+  h1{
+    text-align: center;
+    font-family: 'Neucha', sans-serif;
+    font-size: 72px;
+    margin-top: 30px;
+  }
+
+  .pic{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 900px;
+    z-index: 10;
+  }
+  
+
+
+  .ret{
+    position: absolute;
+    background-color: #6F9772;
+    width: 394px;
+    height: 490px;
+    margin-top: 70px;
+    margin-left: 990px; 
+    z-index: 3;
+  }
+  .part0:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.1); 
+    transition-duration: 0.5s;
+}
+
+
+  .tayson{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 628px;
+    height: 688px;
+    margin-left: 100px;
+    margin-top: 710px;
+    z-index: 10;
+
+  }
+
+  .part{
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 28px;
+   
+  }
+
+  .part img{
+    margin-right: 28px;
+  }
+  .ret2{
+    position: absolute;
+    height: 688px;
+    width: 628px;
+    margin-left: 140px;
+    margin-top: 670px;
+    background-color: #6F9772;
+
+  }
+
+  .text1{
+    width: 650px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 110px;
+
+  }
+
+  .text2{
+    width: 600px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 710px;
+  } 
+
+  p{
+   font-family: 'Neucha', sans-serif;
+   font-size: 40px;
+   margin-bottom: 15px;
+  }
+  .green{
+    background-color: #6F9772;
+    width: 100%;
+    height: 100px;
+    margin-top: 1550px;
+    position: absolute;
+  }
